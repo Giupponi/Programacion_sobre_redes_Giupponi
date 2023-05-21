@@ -10,13 +10,14 @@ public class Ejercicio1 {
             PrintWriter writer = new PrintWriter(file);
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+          
             String input;
             String lastInput = null;
 
             while (!(input = reader.readLine()).equalsIgnoreCase("exit")) {
                 lastInput = input;
             }
+            
 
            
             writer.println(lastInput);

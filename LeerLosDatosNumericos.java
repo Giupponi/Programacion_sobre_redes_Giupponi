@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class LeerLosDatosNumericos {
     public static void main(String[] args) {
-        int[] vector = {10, 20, 30, 40, 50}; // Vector de ejemplo
+        int[] vector = {10, 20, 30, 40, 50};
 
         try {
             BufferedWriter resultadosWriter = new BufferedWriter(new FileWriter("resultados.txt"));

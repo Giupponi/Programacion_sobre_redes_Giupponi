@@ -138,64 +138,40 @@ public class Menu {
 	                default:
 	                    ps.println("Opción inválida");
 	            }
-	            break;
-	        	case "0":
-                ps.println("¡Hasta pronto!");
-                break;
-                default:
-                	ps.println("opcion inválida");
+                	
             }
             
-            break;
-        case "3":
 
-            ps.println("Seleccione una opción:");
-            ps.println("1. Tres apellidos ");
-            ps.println("2. Calcular el valor del tercer ángulo de un triángulo");
-            ps.println("3. Calcular el perímetro de un cuadrado");
-            ps.println("4. Fahrenheit a grados celcius");
-            ps.println("5. segudos a tiempo completo");
-            ps.println("6. planes para pagar y sus resultados");
-            ps.println("7. signos zodiacales y sus nacimientos");
-            ps.println("8. primo o no?");
-            ps.println("0. salir");
-            
-        	
-        	
-            opcion2 = console.readLine();
+            opcion3 = console.readLine();
             
             switch (opcion3) {
                 
                 case "1":
-                	Ejercicio3A.ejercicio2A();
+                	Ejercicio1.ejercicio3A();
                     break;
                     
                 case "2":
-                	Ejercicio3B.ejercicio2B();
+                	Ejercicio2.ejercicio3B();
                     break;
                     
                 case "3":
-                	Ejercicio3C.ejercicio2C();
+                	Ejercicio3.ejercicio3C();
                     break;
                 case "4":
-                	Ejercicio3D.ejercicio2D();
+                	Ejercicio4.ejercicio3D();
                 break;
                 
                 case"5":
-                	Ejercicio3E.ejercicio2E();
+                	Ejercicio5.ejercicio3E();
                 	break;
                 	
                 case"6":
-                	Ejercicio3F.ejercicio2F();
+                	Ejercicio6.ejercicio3F();
                 	break;
                 	
                 case"7":
-                	Ejercicio3G.ejercicio2G();
+                	Ejercicio3G.ejercicio3G();
                 	break;
-                	
-                case"8":
-					Ejercicio3H.ejercicio2H();
-                break;
                 
                 case "0":
                     ps.println("¡Hasta pronto!");
@@ -204,16 +180,11 @@ public class Menu {
                 default:
                     ps.println("Opción inválida");
             }
-            break;
-        	case "0":
-            ps.println("¡Hasta pronto!");
-            break;
-            default:
-            	ps.println("opcion inválida");
+            
         }
         	
 
         }
         }
     
-    }
+

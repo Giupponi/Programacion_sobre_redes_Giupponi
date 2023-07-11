@@ -182,6 +182,47 @@ public class Menu {
             }
             
         }
+        
+        opcion3 = console.readLine();
+        
+        switch (opcion3) {
+            
+            case "1":
+            	EjercicioA.ejercicio4A();
+                break;
+                
+            case "2":
+            	EjercicioBColegio.ejercicio4B();
+                break;
+                
+            case "3":
+            	EjercicioC.ejercicio4C();
+                break;
+            case "4":
+            	EjercicioD.ejercicio4D();
+            break;
+            
+            case"5":
+            	EjercicioE.ejercicio4E();
+            	break;
+            	
+            case"6":
+            	EjercicioF.ejercicio4F();
+            	break;
+            	
+            case"7":
+            	EjercicioG.ejercicio4G();
+            	break;
+            
+            case "0":
+                ps.println("¡Hasta pronto!");
+                break;
+                
+            default:
+                ps.println("Opción inválida");
+        }
+        
+    }
         	
 
         }
